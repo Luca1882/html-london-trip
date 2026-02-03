@@ -14,6 +14,7 @@ che racconti un viaggio a Londra, curando struttura, stile e interazioni.
 - Tabella spese con **calcolo automatico del totale**
 - Lista “Cose da fare” interattiva (click per completare)
 - UI moderna con card e ombre leggere
+- Switch Light/Dark mode
 
 ---
 
