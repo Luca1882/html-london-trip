@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.8rem;
+    text-align: left;
+}
+
+thead {
+    background: #2a5298;
+    color: white;
+}
+
+tfoot td {
+    font-weight: 600;
+}
+
+#todo-list li {
+    padding: 0.6rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#todo-list li:hover {
+    background: #f0f0f0;
+}
+
+.done {
+    text-decoration: line-through;
+    color: green;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #1e3c72;
+    color: white;
+}

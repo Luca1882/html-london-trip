@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il mio Viaggio a Londra</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>✈️ Il mio Viaggio a Londra</h1>
+
+        <div class="gallery">
+            <img src="assets/img/pexels-harwood4-5684476.jpg" alt="Buckingham Palace">
+            <img src="assets/img/pexels-bill-emrich-64742-230794.jpg" alt="London Eye di notte">
+            <img src="assets/img/pexels-public-domain-pictures-42061.jpg" alt="Tower Bridge">
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- SPESE -->
+        <section class="card">
+            <h2>💸 Le mie spese</h2>
+
+            <table id="expense-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Descrizione</th>
+                        <th>Costo (€)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td class="cost">120</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hotel</td>
+                        <td class="cost">180</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Trasporti</td>
+                        <td class="cost">60</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Totale</strong></td>
+                        <td id="total">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- COSE DA FARE -->
+        <section class="card">
+            <h2>📌 Cose da fare</h2>
+            <ul id="todo-list">
+                <li class="done">Visitare Greenwich</li>
+                <li>Visitare la Tower of London</li>
+                <li class="done">Ascoltare un artista a Covent Garden</li>
+                <li>Mangiare Fish & Chips</li>
+            </ul>
+        </section>
+
+        <!-- INFO -->
+        <section class="card">
+            <h2>ℹ️ Info utili</h2>
+
+            <h3>Numeri di emergenza</h3>
+            <ul>
+                <li><strong>999</strong> – Emergenza</li>
+                <li><strong>101</strong> – Polizia</li>
+                <li><strong>111</strong> – Assistenza medica</li>
+            </ul>
+
+            <h3>Hotel</h3>
+            <p><strong>Buckingham Palace</strong><br>
+                Westminster, London SW1A 1AA</p>
+
+            <h3>Voli</h3>
+            <p>✈️ Andata: Y1234X – 09:30 da Milano Malpensa<br>
+                ✈️ Ritorno: Y1236X – 18:30 da London Heathrow</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>📸 Londra è sempre una buona idea</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
