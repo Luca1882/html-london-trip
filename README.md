@@ -2,28 +2,39 @@
 
 Mini progetto frontend realizzato in **HTML, CSS e JavaScript vanilla**.
 
-L’obiettivo del progetto è creare una pagina web moderna e responsive
-che racconti un viaggio a Londra, curando struttura, stile e interazioni.
+Il progetto rappresenta una semplice pagina web dedicata a un viaggio a Londra
+ed è stato utilizzato come esercizio pratico per consolidare le basi
+dello sviluppo frontend.
+
+---
+
+## 🎯 Obiettivo del progetto
+
+L’obiettivo principale è:
+- migliorare la struttura dell’HTML
+- organizzare il CSS in modo ordinato e leggibile
+- utilizzare JavaScript per aggiungere interattività di base
+- iniziare a separare il codice in file con responsabilità chiare
 
 ---
 
 ## 🔍 Funzionalità
 
-- Layout responsive con **Flexbox e Grid**
+- Layout responsive
 - Galleria immagini con effetto hover
-- Tabella spese con **calcolo automatico del totale**
-- Lista “Cose da fare” interattiva (click per completare)
-- UI moderna con card e ombre leggere
-- Switch Light/Dark mode
+- Tabella delle spese con calcolo automatico del totale
+- Lista “Cose da fare” interattiva
+- Salvataggio dello stato delle attività (localStorage)
+- Dark mode con preferenza salvata
 
 ---
 
 ## 🛠️ Tecnologie utilizzate
 
-- HTML5 semantico
-- CSS3 (Flexbox, Grid, animazioni)
-- JavaScript (DOM manipulation)
-- Google Fonts
+- HTML5
+- CSS3 (Flexbox, Grid)
+- JavaScript (ES Modules)
+- Browser APIs (DOM, localStorage)
 
 ---
 
@@ -33,6 +44,11 @@ london-trip/
 ├── index.html
 ├── assets/
 │ ├── css/
+│ │ └── style.css
 │ ├── js/
+│ │ ├── main.js
+│ │ ├── expenses.js
+│ │ ├── todo.js
+│ │ └── theme.js
 │ └── img/
 └── README.md
