@@ -99,3 +99,41 @@ tfoot td {
     background: #1e3c72;
     color: white;
 }
+
+/* =====================
+   DARK MODE
+===================== */
+body.dark {
+    background: #121212;
+    color: #eaeaea;
+}
+
+body.dark .card {
+    background: #1e1e1e;
+    box-shadow: none;
+}
+
+body.dark table thead {
+    background: #333;
+}
+
+body.dark .footer {
+    background: #000;
+}
+
+/* Toggle button */
+.theme-btn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    color: #1e3c72;
+    font-weight: 600;
+}
+
+body.dark .theme-btn {
+    background: #333;
+    color: #fff;
+}
